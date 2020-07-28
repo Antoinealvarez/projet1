@@ -1,0 +1,210 @@
+
+
+body {
+    margin: auto;
+    max-width: 1000px;
+    max-height: 10px;
+   }
+
+#blocpage {
+    display: flex ;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.icons{
+    color: #76FF03;
+   margin-right: 10px;
+}
+
+#block1 {
+    background-color: #76FF03;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#photoCV {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    border: solid gray;
+  
+   
+}
+
+#contact p {
+    margin-left: 30px;
+}
+
+#block1 h2 {
+    background-color: #404040;
+    color: #76FF03;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#moi {
+    flex-grow: 2;
+     
+}
+#moi p
+{
+    padding-right: 3.5em;
+	padding-left: 3.5em;
+	text-align:justify;
+
+
+}
+#logos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.logo_border{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+main {
+    padding-top: 1em;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+header {
+    height: 100px;
+}
+
+#nom{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#prenom {
+    color: #76FF03;
+}
+
+#dev {
+   
+    border-bottom: 0.5px solid #76FF03;
+}
+
+.titre {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #76FF03;
+    margin: 40px 0 40px 0;
+}
+
+ main h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.element {
+    display: flex;
+    justify-content: space-around;
+    
+    
+   
+   
+}
+
+	.element2{
+        display: flex;
+        justify-content: space-around ;
+       margin-bottom: 3em;
+       padding-right: 10%;
+    
+       
+     
+
+    }
+
+.dates {
+    min-width: 250px;
+    display: flex;
+  
+   
+   
+  
+}
+
+ .entreprise {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main p {
+    max-width: 600PX;
+    font-size: smaller;
+  
+}
+
+.directeur {
+    font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+    #blocpage {
+        width: 100%;
+        flex-direction: column;
+    }
+ 
+
+    #block1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .element  {
+        flex-direction: column-reverse;
+    
+    }
+    .element2
+    {
+        flex-direction: column-reverse;
+    }
+
+    .dates {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+  
+    
+
+    #recommandations .element  {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 480px) {
+    header {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+     
+    main h2 {
+        font-size: 110%;
+      
+    }
+main
+{
+    left: auto;
+}
+}
+
+@media all and (max-width: 380px){
+    h1{
+        font-size: 15px;
+    }
+}
